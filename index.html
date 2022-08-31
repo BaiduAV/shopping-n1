@@ -18,20 +18,20 @@
         <header>
             <div class="disclaimer">
                 <div class="header-wrapper">
-                    <img src="./src/refresh-icon.svg"/>
+                    <img src="./src/refresh-icon.svg" />
                     <p>PRIMEIRA TROCA GRÁTIS</p>
                 </div>
                 <div class="header-wrapper">
-                    <img src="./src/ship-icon.svg"/>
+                    <img src="./src/ship-icon.svg" />
                     <p>FRETE GRÁTIS NAS COMPRAS ACIMA DE R$500</p>
                 </div>
                 <div class="header-wrapper">
-                    <img src="./src/card-icon.svg"/>
+                    <img src="./src/card-icon.svg" />
                     <p>PARCELE EM ATÉ 6X SEM JUROS</p>
                 </div>
             </div>
             <nav class="navbar">
-                <img src="./src/logo-icon.svg"/>
+                <img src="./src/logo-icon.svg" />
                 <ul class="navbar-links">
                     <li>Lançamentos</li>
                     <li>Tênis</li>
@@ -41,10 +41,10 @@
                     <li>Off</li>
                 </ul>
                 <input type="text" placeholder="O que está procurando?" class="search" />
-                <img class="account-icon" src="./src/person-icon.svg"/>
+                <img class="account-icon" src="./src/person-icon.svg" />
                 <div class="cart-wrapper">
-                <img class="cart-icon" src="./src/cart-icon.svg"/>
-                <p class="cart-quantity">3</p>
+                    <img class="cart-icon" src="./src/cart-icon.svg" />
+                    <p class="cart-quantity">3</p>
                 </div>
             </nav>
         </header>
@@ -52,14 +52,14 @@
     <section class="product">
         <main class="product-overview">
             <div class="product-images">
-            <aside class="side-images">
-                <img id="selected-image" src="./src/shoes1.png"/>
-                <img src="./src/shoes2.png"/>
-                <img src="./src/shoes3.png"/>
-                <img src="./src/shoes4.png"/>
-            </aside>
+                <aside class="side-images">
+                    <img id="selected-image" src="./src/shoes1.png" />
+                    <img src="./src/shoes2.png" />
+                    <img src="./src/shoes3.png" />
+                    <img src="./src/shoes4.png" />
+                </aside>
                 <figure>
-                    <img src="./src/shoes1.png"/>
+                    <img src="./src/shoes1.png" />
                 </figure>
             </div>
             <article class="product-details">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="product-price">
                     <div class="product-discount">
-                        <p id="risk">R$ 373,00</p>
+                        <p class="risc">R$ 373,00</p>
                         <p>R$261,90</p>
                     </div>
                     <p>ou 10x de R$26,19</p>
@@ -94,63 +94,188 @@
                     </div>
                     <div class="buy-now">
                         <div class="quantity">
-                            <button class="quantity-button"">-</button>
+                            <button class="quantity-button">-</button>
                             <span>01</span>
                             <button class="quantity-button">+</button>
                         </div>
                         <div class="buy-button">
-                            <img src="./src/cart-icon.svg"/>
+                            <img src="./src/cart-icon.svg" />
                             <button>Comprar agora</button>
                         </div>
                     </div>
                 </div>
+                <div class="product-description">
+                    <div class="description">
+                        <p style="width: 173px">Detalhes do produto</p>
+                        <p class="plus-sign">+</p>
+                    </div>
+                    <div class="shipping">
+                        <p>Calcular frete e entrega</p>
+                        <p class="plus-sign">+</p>
+                    </div>
+                    <div id="show-shipping">
+                        <input type="text" maxlength="8" placeholder="CEP" />
+                        <button>Calcular Frete</button>
+                    </div>
+                </div>
+                <div class="product-share"></div>
             </article>
         </main>
     </section>
-    <aside></aside>
-    <section>
-        <h4>Cadastra-se e seja um dos primeiros a saber de todas as novidades e ofertas</h4>
-        <div>
-            <input type="text" placeholder="Nome" />
-            <input type="email" placeholder="E-mail" />
-            <button>Cadastrar</button>
+    <aside class="showcase-area">
+        <h4>Você vai curtir também</h4>
+        <div class="showcase">
+            <div class="product-card">
+                <div class="showcase-images">
+                    <span class="badge">20% OFF</span>
+                    <img src="./src/shoes5.png" />
+                </div>
+                <section class="product-text">
+                    <h5>Tênis Nike Air Max 2090</h5>
+                    <section class="showcase-price">
+                        <p class="risc">R$190,00</p>
+                        <p class="actual-price">R$150,00</p>
+                    </section>
+                    <p>ou 3x de R$50,00</p>
+                </section>
+            </div>
+            <div class="product-card">
+                <div class="showcase-images">
+                    <span class="badge">20% OFF</span>
+                    <img src="./src/shoes6.png" />
+                </div>
+                <section class="product-text">
+                    <h5>Tênis Nike Air Force 1 '07 Essential</h5>
+                    <section class="showcase-price">
+                        <p class="risc">R$190,00</p>
+                        <p class="actual-price">R$150,00</p>
+                    </section>
+                    <p>ou 3x de R$50,00</p>
+                </section>
+            </div>
+            <div class="product-card">
+                <div class="showcase-images">
+                    <span class="badge">20% OFF</span>
+                    <img src="./src/shoes7.png" />
+                </div>
+                <section class="product-text">
+                    <h5>Tênis Nike Air Max 87 SE</h5>
+                    <section class="showcase-price">
+                        <p class="risc">R$190,00</p>
+                        <p class="actual-price">R$150,00</p>
+                    </section>
+                    <p>ou 3x de R$50,00</p>
+                </section>
+            </div>
+            <div class="product-card">
+                <div class="showcase-images">
+                    <span class="badge">20% OFF</span>
+                    <img src="./src/shoes1.png" />
+                </div>
+                <section class="product-text">
+                    <h5>Tênis Nike Air Max 2021</h5>
+                    <section class="showcase-price">
+                        <p class="risc">R$190,00</p>
+                        <p class="actual-price">R$150,00</p>
+                    </section>
+                    <p>ou 3x de R$50,00</p>
+                </section>
+            </div>
         </div>
-    </section>
+    </aside>
     <footer>
-        <div>
-            <p>11 99999-9999</p>
-            <p>contato@agencian1.com.br</p>
+        <section class="newsletter">
+            <h4>Cadastra-se e seja um dos primeiros a saber de todas as novidades e ofertas.</h4>
+            <div>
+                <input type="text" placeholder="Nome" />
+                <input type="email" placeholder="E-mail" />
+                <button>Cadastrar</button>
+            </div>
+        </section>
+        <section class="footer-links">
+        <div class="contact-info">
+            <img style="width: 120px; height: 27px;" src="./src/logo-icon.svg"/>
+            <section class="social-links">
+                <figure id="facebook">
+                    <img src="./src/face-icon.svg" />
+                </figure>
+                <figure id="twitter">
+                    <img src="./src/twitter-icon.svg" />
+                </figure>
+                <figure id="instagram">
+                    <img src="./src/insta-icon.svg" />
+                </figure>
+                <figure id="youtube">
+                    <img src="./src/youtube-icon.svg" />
+                </figure>
+                <figure id="tikoteko">
+                    <img src="./src/tik-icon.svg" />
+                </figure>
+            </section>
+            <span id="phone">
+                <img src="./src/phone-icon.svg"/>
+                11 99999-9999
+            </span>
+            <span id="email">
+                <img src="./src/mail-icon.svg"/>
+                contato@agencian1.com.br
+            </span>
             <p>Seg. à Sex. das 09:00h às 18:00h</p>
-            Sábado das 10:00h às 14:00h
+            <p>Sábado das 10:00h às 14:00h</p>
         </div>
-        <div>
-            <h6>Institucional</h6>
-            <p>Quem Somos</p>
-            <p>Nossas Lojas</p>
-            <p>Fale Conosco</p>
-        </div>
-        <div>
-            <h6>Minha Conta</h6>
-            <p>Meus Dados</p>
-            <p>Meus Pedidos</p>
-            <p>Login</p>
-        </div>
-        <div>
-            <h6>Suporte</h6>
-            <p>Política de Privacidade</p>
-            <p>Perguntas Frequentes</p>
-            <p>Troca ou devolução</p>
-        </div>
-        <div>
-            <h6>Pagamentos</h6>
-        </div>
-        <div>
-            <h6>Segurança</h6>
-        </div>
-        <div>
+            <div class="institutional">
+                <section class="first-line">
+                    <div class="row1">
+                        <h6>Institucional</h6>
+                        <p>Quem Somos</p>
+                        <p>Nossas Lojas</p>
+                        <p>Fale Conosco</p>
+                    </div>
+                    <div class="row1">
+                        <h6>Minha Conta</h6>
+                        <p>Meus Dados</p>
+                        <p>Meus Pedidos</p>
+                        <p>Login</p>
+                    </div>
+                    <div class="row1">
+                        <h6>Suporte</h6>
+                        <p>Política de Privacidade</p>
+                        <p>Perguntas Frequentes</p>
+                        <p>Troca ou devolução</p>
+                    </div>
+                </section>
+                <section class="line-2">
+                    <div class="payments">
+                        <h6>Pagamentos</h6>
+                        <section class="payment-icons">
+                            <img src="./src/master-icon.svg"/>
+                            <img src="./src/visa-icon.svg"/>
+                            <img src="./src/elo-icon.svg"/>
+                            <img src="./src/amex-icon.svg"/>
+                            <img src="./src/pix-icon.svg"/>
+                            <img src="./src/boleto-icon.svg"/>
+                        </section>
+                    </div>
+                    <div class="security-seal">
+                        <h6>Segurança</h6>                     
+                        <img src="./src/selo.png" />
+                    </div>
+                    <div class="developed">
+                        <div style="font-size: 10px; line-height: 125%; color: #8F8F9F;">
+                            Created by
+                            <img style="width: 60px; height: 20px;" src="./src/logo-icon.svg" />
+                        </div>
+                        <div style="font-size: 10px; line-height: 125%; color: #8F8F9F;">
+                            Powered by
+                            <img style="width: 40px; height: 20px;" src="./src/vtex-icon.svg" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="copyright">
             <p>Agência N1 - Todos os Direitos Reservados</p>
         </div>
     </footer>
 </body>
-
 </html>
