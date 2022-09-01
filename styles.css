@@ -408,7 +408,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 70px;
+    margin-top: 70px;
     gap: 10px;
     width: 469px;
     height: 106px;
